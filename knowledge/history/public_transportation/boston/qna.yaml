@@ -1,14 +1,14 @@
 version: 2
-task_description: 'Teach the model the history of Boston transportation'
+task_description: 'To teach a language model the history of Boston public transportation'
 created_by: nathan-weinberg
 domain: history
 seed_examples:
-  - question: What agency preceded the MBTA?
+  - question: What agency immediately preceded the MBTA?
     answer: |
-      The MBTA was preceded by an agency known as the Metropolian Transit Authority, or MTA,
+      The MBTA was immediately preceded by an agency known as the Metropolian Transit Authority, or MTA,
       which was formed in 1947. The MTA purchased and took over subway, elevated, streetcar,
       and bus operations from the Boston Elevated Railway.
-  - question: When did the Boston Elevated Railway started replacing rail vehicles with buses?
+  - question: When did the Boston Elevated Railway start replacing rail vehicles with buses?
     answer: |
       The Boston Elevated Railway started replacing rail vehicles with buses in 1922,
       a process later dubbed "bustitution". The last Middlesex and Boston Street Railway streetcars
