@@ -1,3 +1,4 @@
+version: 2
 created_by: ae2015
 task_description: >
     Given a context document and a user's question, determine whether you have
