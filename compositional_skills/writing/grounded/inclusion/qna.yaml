@@ -1,0 +1,40 @@
+version: 1
+task_description: | This skill replaces deprecated IT terminology with inclusive terminology.
+created by: imstilllearning
+seed_examples:
+  - context: |
+    In database replication, the master database is regarded as the authoritative source, and the slave databases are syncrhonized to it.|
+    question: |
+      How would you revise this sentence to use Inclusive IT terminology?
+    answer: |
+      In database replication, the parent database is regarded as the authoritative source, and the child databases are syncrhonized to it.
+  - context: |
+      Blacklisting is the action of a group or authority compiling a blacklist of people, countries, or other entites to be avoided or distrusted as being deemed unacceptable to those making the list.
+      question: |
+        How would you revise this sentence to use Inclusive IT terminology?
+      answer: |
+        Denylisting is the action of a group or authority compiling a denylist of people, countries, or other entites to be avoided or distrusted as being deemed unacceptable to those making the list.
+  - context: |
+      A use for whitelists is in local area network (LAN) security. Many network admins set up MAC address whitelists, or a MAC address filter, to control who is allowed on their networks.
+      question: |
+        How would you edit this sentence to use Inclusive IT terminology?
+      answer: |
+         A use for allowlists is in local area network (LAN) security. Many network admins set up MAC address allowlists, or a MAC address filter, to control who is allowed on their networks.
+  - context: |
+      A use for whitelists is in local area network (LAN) security. Many network admins set up MAC address whitelists, or a MAC address filter, to control who is allowed on their networks.
+      question: |
+        How would you replace the non-inclusive IT terminology in this sentence with inclusive IT terminology?
+      answer: |
+         A use for allowlists is in local area network (LAN) security. Many network admins set up MAC address allowlists, or a MAC address filter, to control who is allowed on their networks.
+  - context: |
+      A master clock that provides time signals used to synchronize one or more slave clocks as a part of a clock network.
+      question: |
+        Tweak this sentence to use Inclusive IT terminology?
+      answer: |
+          A primary clock that provides time signals used to synchronize one or more secondary clocks as a part of a clock network.
+  - context: |
+      As a verb, blacklist can mean to put an individual or entity on such a list. A blacklist is synonymous with a list of banned persons or organizations, and is the opposite of a whitelist.
+      question: |
+        How would you revise this sentence to use Inclusive IT terminology?
+      answer: |
+        As a verb, denylist can mean to put an individual or entity on such a list. A denylist is synonymous with a list of banned persons or organizations, and is the opposite of an allowlist.
