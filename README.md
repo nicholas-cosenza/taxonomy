@@ -258,7 +258,7 @@ seed_examples:
 
 While skills are foundational or performative, knowledge is based more on answering questions that involve facts, data, or references.
 
-Knowledge is supported by documents, such as textbook, technical_manual, encyclopedia, journal, or magazine. The document type is the last node in the taxonomy tree, for example: `science/animals/tabby_cat/encyclopedia`. The `qna.yaml` is in this final node.
+Knowledge is supported by documents, such as a textbook, technical manual, encyclopedia, journal, or magazine. The document type is the last node in the taxonomy tree, for example: `science/animals/tabby_cat/encyclopedia`. The `qna.yaml` is in this final node.
 
 Knowledge in the taxonomy tree consists of a few more elements than skills:
 
