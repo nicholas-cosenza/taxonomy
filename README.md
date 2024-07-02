@@ -30,7 +30,7 @@ method.
 
 ## Choosing domains for the taxonomy
 
-In general, we use the Dewey Decimal Classification (DDC) System to determine our domains (and subdomains) in the taxonomy. This SUMMARIES of the DDC document is a great resourcce for determining where a topic might be classified:
+In general, we use the Dewey Decimal Classification (DDC) System to determine our domains (and subdomains) in the taxonomy. The [DDC SUMMARIES document](https://www.oclc.org/content/dam/oclc/dewey/resources/summaries/deweysummaries.pdf) is a great resource for determining where a topic might be classified.
 
 https://www.oclc.org/content/dam/oclc/dewey/resources/summaries/deweysummaries.pdf
 
