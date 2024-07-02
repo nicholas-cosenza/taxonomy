@@ -32,7 +32,6 @@ method.
 
 In general, we use the Dewey Decimal Classification (DDC) System to determine our domains (and subdomains) in the taxonomy. The [DDC SUMMARIES document](https://www.oclc.org/content/dam/oclc/dewey/resources/summaries/deweysummaries.pdf) is a great resource for determining where a topic might be classified.
 
-https://www.oclc.org/content/dam/oclc/dewey/resources/summaries/deweysummaries.pdf
 
 If you are unsure where to put your knowledge or compositional skill, create a folder in the `miscellaneous_unknown` folder.
 
