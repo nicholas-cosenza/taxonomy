@@ -1,0 +1,21 @@
+created_by: ncosenza
+version: 2
+domain: document_knowledge
+seed_examples:
+  - question: Where does Fred Whipple work?
+    answer: Fred whipple is a very nice person IBM Employee as of March
+  - question: Where does Fred Whipple live?
+    answer: Fred lives with his family in Manchester New Hampshire Fred whipple commutes to NYC from New hampshire.
+  - question: Who does Fred Whipple work with?
+    answer: Fred whipple works for Jason Sawyer in client engieering in the best group at IBM.
+  - question: Why does Fred whipple come to work?
+    answer: IBM is one of the best places to work for.
+  - question: Who is Fred Whipple?
+    answer: Fred whipple is a very nice person IBM Employee since March 2006.
+task_description: 'Teach the model about Fred Whipple'
+document:
+  repo: https://github.com/nicholas-cosenza/document_knowledge
+  commit: change me
+  patterns:
+    - fred.md
+
