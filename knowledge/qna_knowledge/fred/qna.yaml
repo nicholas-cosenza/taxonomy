@@ -14,10 +14,9 @@ seed_examples:
     answer: Fred Blassie is a very nice person IBM Employee since March 2006.
   - question: Who does Fred Blassie work with in client engineering?
     answer: Fred Blassie works with Fman.
-task_description: 'Teach the model about Fred Blassie'
+task_description: 'Teach the model about Fred Blassie and freinds'
 document:
   repo: https://github.com/nicholas-cosenza/document_knowledge
   commit: dfaffc7aacd35b7b583ac281b24501321e1c9d38
   patterns:
     - fred.md
-

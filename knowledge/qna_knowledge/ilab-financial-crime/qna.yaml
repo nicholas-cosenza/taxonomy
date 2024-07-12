@@ -1,0 +1,38 @@
+created_by: nikhil_gopal
+domain: document_knowledge
+seed_examples:
+  - question: What are the applicant's sources of income?
+    answer: The applicant owns multiple businesses in the industrial, hospitality, and retail sectors. They do lots of business with governments of sanctioned countries, so their sources of income should be carefully vetted.
+  - question: Does the applicant appear on any sanctions list?
+    answer: The applicant is a senior member of the Russian armed forces and was placed on a US Office of Foreign Assets Control list in December 2023.
+  - question: Are there any illogical discrepancies in this application?
+    answer: The applicant's primary source of income is a coffee shop located in rural Alaska, but they are reporting profits in the amount of $50,000,000. This is likely not feasible and should be investigated.
+  - question: Is there a mismatch between the applicant's job title and reported salary?
+    answer: Yes, the applicant claims to be the CEO of Apple but reports a salary of $50,000, which is significantly lower than expected for such a position.
+  - question: Are there any inconsistencies between the applicant's residential and business locations?
+    answer: The applicant resides in the US but operates a primary business in North Korea, a sanctioned country. This inconsistency should be carefully reviewed.
+  - question: Are there unusual transaction patterns in the applicant's financial history?
+    answer: The applicant's account shows large, frequent international transfers that do not match their business activities or financial capacity, indicating possible money laundering.
+  - question: Does the applicant have connections to high-risk countries?
+    answer: The applicant has business dealings with entities based in Myanmar, a country with known lax AML enforcement, which increases the risk of money laundering and financial crimes.
+  - question: Is the applicant using a complex corporate structure to obscure ownership?
+    answer: The applicant uses multiple layers of offshore entities to hide the beneficial owner, which can be indicative of efforts to evade taxes or launder money.
+  - question: Is the applicant a politically exposed person (PEP)?
+    answer: The applicant is a PEP from a high-corruption-risk country and has deposited large sums of money into a personal account with no clear source of income, raising suspicions of corruption or embezzlement.
+  - question: Are there any red flags in the applicant's financial activities?
+    answer: The applicant's financial activities include high-value transactions with entities in sanctioned countries, complex corporate structures to obscure ownership, and unexplained wealth, all of which are red flags for potential financial crimes.
+  - question: Is the applicant attempting to conceal their identity or financial activities?
+    answer: The applicant has been using multiple aliases and different identification documents, which is a common tactic to conceal identity and evade detection.
+  - question: Has the applicant recently opened multiple new accounts?
+    answer: The applicant has opened several new accounts in different banks within a short period, which can indicate attempts to spread and hide illicit funds.
+  - question: Are there large cash transactions that seem unusual?
+    answer: The applicant has made several large cash deposits and withdrawals that are inconsistent with their reported income and business activities, suggesting potential money laundering.
+  - question: Does the applicant have any connections to shell companies?
+    answer: The applicant is linked to several shell companies that have no clear business purpose, which is a common method for hiding the origin and destination of funds.
+  - question: Are there any indications of smurfing or structuring activities?
+    answer: The applicant's transaction history shows a pattern of small deposits and withdrawals structured to avoid reporting thresholds, indicating possible smurfing or structuring activities.
+document:
+  repo: https://github.com/nicholas-cosenza/document_knowledge
+  commit: 4c8e8a0cbb5054e152c7e50240cbf0047a2956e9
+  patterns:
+    - knowledge.md
