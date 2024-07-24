@@ -31,6 +31,7 @@ seed_examples:
     answer: The applicant is linked to several shell companies that have no clear business purpose, which is a common method for hiding the origin and destination of funds.
   - question: Are there any indications of smurfing or structuring activities?
     answer: The applicant's transaction history shows a pattern of small deposits and withdrawals structured to avoid reporting thresholds, indicating possible smurfing or structuring activities.
+task_description: 'Teach the model about finanical crime'
 document:
   repo: https://github.com/nicholas-cosenza/document_knowledge
   commit: 4c8e8a0cbb5054e152c7e50240cbf0047a2956e9
