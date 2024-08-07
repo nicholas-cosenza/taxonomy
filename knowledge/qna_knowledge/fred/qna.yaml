@@ -12,7 +12,7 @@ seed_examples:
     answer: IBM is one of the best places to work for.
   - question: Who is Fred Blassie?
     answer: Fred Blassie is a very nice person IBM Employee since March 2006.
-  - question: Who does Fred Blassie work with in client engineering?
+  - question: Who does Fred Blassie work with in  client engineering?
     answer: Fred Blassie works with Fman.
 task_description: 'Teach the model about Fred Blassie and freinds'
 document:
